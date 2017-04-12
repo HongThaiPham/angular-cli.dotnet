@@ -35,4 +35,4 @@ Examples:
     dotnet new --help
 ```
 ## Use
-Run `dotnet new angular-cli.dotnet -n {Your Solution Name} -o {Path to the new Solution}
+Run `dotnet new angular-cli.dotnet -n {Your Solution Name} -o {Path to the new Solution}`
