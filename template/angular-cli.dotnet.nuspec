@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>angular-cli.dotnet</id>
+    <version>0.0.1-unstable0001</version>
+    <authors>LefebvreO</authors>
+    <owners>LefebvreO</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>http://blanck</projectUrl>
+    <iconUrl>http://nologo</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>angular-cli dotnet</description>
+    <releaseNotes>Dotnet new template for angular-cli and ASP:net core</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>angular-cli dotnet</tags>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+</package>
