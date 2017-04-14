@@ -19,15 +19,13 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\" />
-    <Folder Include="wwwroot\" />
-    <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <Target Name="PrepublishScript" BeforeTargets="PrepareForPublish">
     <Exec Command="precompile.cmd" />
   </Target>
   <Target Name="PrebuildScript" BeforeTargets="Build" Condition="$(Configuration) == 'Debug'">
-    <Exec Command="build-app.cmd" />
+    <Exec Command="precompile.cmd" />
   </Target>
 
 </Project>
