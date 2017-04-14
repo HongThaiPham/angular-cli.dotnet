@@ -35,4 +35,13 @@ Examples:
     dotnet new --help
 ```
 ## Use
-Run `dotnet new angular-cli.dotnet -n {Your Solution Name} -o {Path to the new Solution}`
+Run `dotnet new angular-cli.dotnet -n {Your Solution Name} -o {Path to the new Solution}`  
+It will create a VS 2017 solution containing an Angular web site used for development and an ASP.Net core project used to serve the application in production.  
+### Angular application
+Under AngularSpa folder, the Angular application was created by the angula-cli tool.  
+Run `npm install` to install dependencies.  
+Then you can start it with `npm start`, the application is compiled with AOT and support the Hot Module Replacement (HMR) to speed up your development.   
+### ASP.Net Core
+Under Server folder, the ASP.Net Core project is used to deploy the application.
+Run `dotnet pubish`, it will compile the Angular application to the `wwwroor` folder.  
+If you want to test the deployment just build the project in debug, in will compile the Angular application to `wwwroor` as well.  
