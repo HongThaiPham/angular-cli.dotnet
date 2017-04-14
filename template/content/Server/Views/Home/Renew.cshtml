@@ -1,0 +1,10 @@
+<html>
+<body>
+    <script src="~/oidc-client.min.js" asp-append-version="true"></script>
+    <script>
+        new Oidc.UserManager().signinSilentCallback().catch(function (e) {
+            console.error(e);
+        });
+    </script>
+</body>
+</html>

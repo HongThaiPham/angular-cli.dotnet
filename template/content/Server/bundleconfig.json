@@ -1,0 +1,63 @@
+﻿[
+  {
+    "outputFileName": "wwwroot/styles.bundle.min.css",
+    "inputFiles": [
+      "wwwroot/styles.bundle.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/inline.bundle.min.js",
+    "inputFiles": [
+      "wwwroot/inline.bundle.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/polyfills.bundle.min.js",
+    "inputFiles": [
+      "wwwroot/polyfills.bundle.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/scripts.bundle.min.js",
+    "inputFiles": [
+      "wwwroot/scripts.bundle.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/vendor.bundle.min.js",
+    "inputFiles": [
+      "wwwroot/vendor.bundle.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/main.bundle.min.js",
+    "inputFiles": [
+      "wwwroot/main.bundle.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  }
+]

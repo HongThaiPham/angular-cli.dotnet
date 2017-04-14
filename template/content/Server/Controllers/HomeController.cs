@@ -1,8 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Hosting;
 
 namespace Server.Controllers
 {
@@ -10,8 +11,15 @@ namespace Server.Controllers
     {
         public IActionResult Index()
         {
+
             return View();
         }
+
+        public IActionResult Renew()
+        {
+            return PartialView();
+        }
+
         public IActionResult Error()
         {
             return View();
