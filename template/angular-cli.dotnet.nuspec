@@ -2,11 +2,11 @@
 <package>
   <metadata>
     <id>angular-cli.dotnet</id>
-    <version>0.0.1-unstable0001</version>
-    <authors>LefebvreO</authors>
-    <owners>LefebvreO</owners>
+    <version>$version$</version>
+    <authors>Olivier Lefebvre</authors>
+    <owners>Olivier Lefebvre</owners>
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
-    <projectUrl>http://blanck</projectUrl>
+    <projectUrl>https://github.com/aguacongas/angular-cli.dotnet</projectUrl>
     <iconUrl>http://nologo</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>angular-cli dotnet</description>
