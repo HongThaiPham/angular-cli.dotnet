@@ -32,6 +32,6 @@ Then you can start it with `npm start`, the application is compiled with AOT and
 ### ASP.Net Core
 Under Server folder, the ASP.Net Core project is used to deploy the application.
 Run `dotnet pubish`, it will compile the Angular application to the `wwwroor` folder.  
-If you want to test the deployment just build the project in debug, in will compile the Angular application to `wwwroor` as well.  
+If you want to test the deployment just build the project in debug, in will compile the Angular application to `wwwroot` as well.  
 ### Build from sources  
 Run `make.cmd` on windows
