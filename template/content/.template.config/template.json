@@ -1,9 +1,12 @@
 {
   "author": "Olivier Lefebvre",
-  "classifications": [ "Angular-cli dotnet" ],
-  "name": "angular-cli.dotnet",
+  "classifications": [ "Angular-cli/Asp.Net Core" ],
+  "name": "Angular-cli + Asp.Net Core",
   "identity": "angular-cli.dotnet",
   "shortName": "angular-cli.dotnet",
   "guids": [ "dc46e9be-12b0-43c5-ac94-5c7019d59196" ],
-  "sourceName": "Project"
+  "sourceName": "Project",
+  "tags": {
+    "language": "C#, TypeScript"
+  },
 }

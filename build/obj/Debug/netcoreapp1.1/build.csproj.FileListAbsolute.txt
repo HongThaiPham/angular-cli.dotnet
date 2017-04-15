@@ -1,0 +1,6 @@
+C:\Projects\angular-cli.dotnet\build\bin\Debug\netcoreapp1.1\build.deps.json
+C:\Projects\angular-cli.dotnet\build\bin\Debug\netcoreapp1.1\build.dll
+C:\Projects\angular-cli.dotnet\build\bin\Debug\netcoreapp1.1\build.pdb
+C:\Projects\angular-cli.dotnet\build\obj\Debug\netcoreapp1.1\build.AssemblyInfo.cs
+C:\Projects\angular-cli.dotnet\build\obj\Debug\netcoreapp1.1\build.dll
+C:\Projects\angular-cli.dotnet\build\obj\Debug\netcoreapp1.1\build.pdb
