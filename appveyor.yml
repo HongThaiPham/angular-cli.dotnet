@@ -1,0 +1,17 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+install:
+  - choco install gitversion.portable -pre -y
+assembly_info:
+  patch: false
+before_build:
+  - ps: gitversion /l console /output buildserver
+build_script:
+- cmd: make.cmd
+artifacts:
+- path: '*.nupkg'
+  name: Nuget
+deploy:
+- provider: NuGet
+  api_key:
+    secure: jxnr2MpO60Qa2W2FKkqF6yfmPPPXXYC7KDfD3BTNnaqACQIjQBXSAr3NSXVb6i3d
