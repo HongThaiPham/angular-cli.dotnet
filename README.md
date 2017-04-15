@@ -1,8 +1,8 @@
 # angular-cli.dotnet
 dotnet new template for angular-cli and ASP.Net core 
 ## Install
-Download the [nuget package](https://github.com/aguacongas/angular-cli.dotnet/raw/master/angular-cli.dotnet.latest.nupkg)  
-Run `dotnet new -i angular-cli.dotnet.latest.nupkg`
+Download the [nuget package](https://www.nuget.org/packages/angular-cli.dotnet/)  
+Run `dotnet new -i angular-cli.dotnet.<Version>.nupkg`
 ```
 C:\Projects\angular-cli.dotnet>dotnet new --install angular-cli.dotnet.latest.nupkg
 Templates                       Short Name              Language            Tags
@@ -22,6 +22,10 @@ Examples:
     dotnet new classlib --framework netstandard1.4
     dotnet new --help
 ```
+### Update
+Run `dotnet new -i angular-cli.dotnet.<Version>.nupkg` again
+### Uninstall
+Run `dotnet new --debug:reinit`
 ## Use
 Run `dotnet new angular-cli.dotnet -n {Your Solution Name} -o {Path to the new Solution}`  
 It will create a VS 2017 solution containing an Angular web site used for development and an ASP.Net core project used to serve the application in production.  
