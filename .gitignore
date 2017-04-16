@@ -8,3 +8,4 @@ obj
 *.user
 *.nupkg
 node_modules
+wwwroot
