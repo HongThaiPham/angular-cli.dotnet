@@ -23,6 +23,7 @@
 
   <Target Name="PrepublishScript" BeforeTargets="PrepareForPublish">
     <Exec Command="precompile.cmd" />
+    <Exec Command="npm run min" />
   </Target>
   <Target Name="PrebuildScript" BeforeTargets="Build" Condition="$(Configuration) == 'Debug'">
     <Exec Command="precompile.cmd" />

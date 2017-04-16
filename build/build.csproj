@@ -23,6 +23,5 @@
     <Message Text="verion fron GitVersion $(NuGetVersion)" Importance="high" />
 	
 	<Exec Command="$(NugetLocation) pack $(NugetSpecLocation) -Version $(NuGetVersion) -OutputDirectory $(MSBuildThisFileDirectory).." />
-	<Copy SourceFiles="$(MSBuildThisFileDirectory)..\angular-cli.dotnet.$(NuGetVersion).nupkg" DestinationFiles="$(MSBuildThisFileDirectory)..\angular-cli.dotnet.latest.nupkg"></Copy>
   </Target>
 </Project>

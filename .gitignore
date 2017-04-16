@@ -2,5 +2,10 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/template/content/Server/obj
-/template/content/Server/bin
+bin
+.vs
+obj
+*.user
+*.nupkg
+node_modules
+wwwroot
