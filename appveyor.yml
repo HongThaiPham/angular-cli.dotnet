@@ -15,3 +15,11 @@ deploy:
 - provider: NuGet
   api_key:
     secure: jxnr2MpO60Qa2W2FKkqF6yfmPPPXXYC7KDfD3BTNnaqACQIjQBXSAr3NSXVb6i3d
+  on:
+    branch: (release\/.*)|(master)|(hotfix\/.*)|(support\/.*)
+- provider: GitHub
+  auth_token:
+    secure: RVr1FWShpS8gXYZ0Qh9vTfqHqgrdRkHOMOWPTq+Zw0B3byuO1jmTDSV7y5+YowTp
+  draft: true
+  on:
+    branch: (release\/.*)|(master)|(hotfix\/.*)|(support\/.*)
