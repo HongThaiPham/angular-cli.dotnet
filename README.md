@@ -1,3 +1,4 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/unjm2ycan9sgj1d6?svg=true)](https://ci.appveyor.com/project/aguacongas/angular-cli-dotnet)  
 # angular-cli.dotnet
 dotnet new template for angular-cli and ASP.Net core 
 ## Install
